@@ -50,7 +50,7 @@ async function fetchWeatherAlerts(state) {
       const errorMessage = error.message;
       errorParagraph.textContent = errorMessage;
       errorDisplay.appendChild(errorParagraph);
-      errorDisplay.classList.remove = "hidden";
+      errorDisplay.classList.remove("hidden");
     }
   }
 }
